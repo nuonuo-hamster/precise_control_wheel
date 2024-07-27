@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pyrealsense2 = "==2.43.0.3018"
+opencv-python = "*"
+transformations = "*"
+speechrecognition = "*"
+pyserial = "*"
+pynput = "*"
+pyaudio = "*"
+keyboard = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
